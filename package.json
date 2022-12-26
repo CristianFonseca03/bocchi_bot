@@ -1,0 +1,24 @@
+{
+  "name": "bocchi_bot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch ./index.js"
+  },
+  "author": "cristianfonseca03",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.14.0",
+    "discord-music-player": "^9.1.1",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.1.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "libsodium-wrappers": "^0.7.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
